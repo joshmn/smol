@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    smol (0.1.0)
+    smol (0)
       logger
       readline
 
