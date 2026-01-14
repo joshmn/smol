@@ -1,0 +1,51 @@
+PATH
+  remote: .
+  specs:
+    smol (0.1.0)
+      logger
+      readline
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    date (3.5.1)
+    erb (6.0.1)
+    io-console (0.8.2)
+    irb (1.16.0)
+      pp (>= 0.6.0)
+      rdoc (>= 4.0.0)
+      reline (>= 0.4.2)
+    logger (1.7.0)
+    minitest (6.0.1)
+      prism (~> 1.5)
+    pp (0.6.3)
+      prettyprint
+    prettyprint (0.2.0)
+    prism (1.8.0)
+    psych (5.3.1)
+      date
+      stringio
+    rake (13.3.1)
+    rdoc (7.1.0)
+      erb
+      psych (>= 4.0.0)
+      tsort
+    readline (0.0.4)
+      reline
+    reline (0.6.3)
+      io-console (~> 0.5)
+    stringio (3.2.0)
+    tsort (0.2.0)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  irb
+  minitest
+  rake (~> 13.0)
+  smol!
+
+BUNDLED WITH
+   2.7.2
