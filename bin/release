@@ -2,7 +2,7 @@
 
 VERSION=$1
 
-printf "module Smol\n  VERSION = \"$VERSION\"\nend\n" > ./lib/caffeinate/version.rb
+printf "module Smol\n  VERSION = \"$VERSION\"\nend\n" > ./lib/smol/version.rb
 bundle
 git add Gemfile.lock lib/smol/version.rb
 git commit -m "Bump version for $VERSION"
