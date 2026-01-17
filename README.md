@@ -171,7 +171,7 @@ end
 
 ### History file
 
-Command history saves to `~/.smol_{prompt}_history` by default. Override it:
+Command history saves to `~/.smol_{app_name}_history` by default. Override it:
 
 ```ruby
 class App < Smol::App

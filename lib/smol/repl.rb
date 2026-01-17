@@ -10,7 +10,7 @@ module Smol
       @app = app
       @prompt = prompt
       @history = history
-      @history_file = history_file || File.expand_path("~/.smol_#{prompt}_history")
+      @history_file = history_file || File.expand_path("~/.smol_#{app.class.name.downcase}_history")
       @parent = parent
     end
 
